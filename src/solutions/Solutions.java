@@ -5,9 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
 public class Solutions extends JFrame {
     private JLabel statusLabel, author;
