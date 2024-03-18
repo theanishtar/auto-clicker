@@ -6,6 +6,7 @@ import java.awt.event.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.Timer;
 
 public class Solutions extends JFrame {
     private JLabel statusLabel, author;
@@ -15,7 +16,7 @@ public class Solutions extends JFrame {
     private boolean isRunning;
     private int previousMouseX, previousMouseY;
     private int demNguoc =  60 * 1000; // 1 phút
-    private int yenTinh =  60 * 60 * 1000; // 4h
+    private int yenTinh =  60 * 100 * 1000; // 4h
     private JTextField yenTinhField, demNguocField;
 
     public Solutions() {
